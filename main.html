@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onselectstart="return false">BMI
+    <h1>Kalkulator BMI</h1>
+    <main>
+        <div id="informacje" class="blok">
+            <h3>
+                Czym jest BMI?
+            </h3>
+            <p>
+                BMI to wskaźnik masy ciała
+            </p>
+        </div>
+
+        <div id="obliczenia" class="blok">
+            <h3>Oblicz swoje BMI</h3>
+            <p>Waga: <input type="text" id="waga">kg</p>
+            <p>Wzrost: <input type="text" id="wzrost">cm</p>
+            <button onclick="oblicz()">Oblicz</button>
+            <p id="wynik"></p>
+            <p id="slownie"></p>
+        </div>
+        <div id="wskazniki" class="blok">
+            Wskazniki
+        </div>
+    </main>
+</body>
+</html>

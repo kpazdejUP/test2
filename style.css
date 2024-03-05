@@ -1,0 +1,16 @@
+body{
+    background-image: url("tlo.png");
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blok{
+    float: left;
+    width: 26%;
+    height: 500px;
+    background-color: rgba(255, 0, 225, 0.434);
+    margin: 3%;
+    padding: 10px;
+    text-align: center;
+}
+
